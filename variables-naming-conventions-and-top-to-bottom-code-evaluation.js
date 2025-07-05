@@ -24,9 +24,28 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice";
+let numberOfItems = 5;
+let totalCost = 20;
+let itemName = "books";
+let storeName = "The Novel";
+let purchaseSummary = customerName + " bought " + numberOfItems + "    " + itemName + " for $" + totalCost + " at " + storeName + ".";
 
-console.log(d);
+console.log(purchaseSummary);
+
+Output: Alice bought 5 books for 20$ at The Novel
+
+Things to reflect on: 
+
+Why is it important to use meaningful variable names?
+Meaningful variable names make the code self-explanatory, so immediately understand what each value represents. This prevents confusion and reduces the need for extra comments. It also makes it easier to maintain or debug the code later.
+
+What are common pitfalls to avoid when naming variables?
+•	Using vague names like a, b, data, or temp.
+•	Using inconsistent styles (e.g., mixing camelCase, snake_case, PascalCase).
+•	Making names too long or overly complex.
+•	Using misleading names that don’t match the data’s purpose.
+
+How do clear variable names benefit team collaboration?
+Clear, consistent names mean everyone can quickly understand and work with the code, even if they didn’t write it. It makes onboarding new developers easier, improves code reviews, and reduces bugs caused by misunderstanding what a variable holds.
+
